@@ -5,7 +5,8 @@ require 'faker'
 require 'securerandom'
 
 Eyeson.configure do |config|
-  config.api_key = ENV['8WrRS4uid0hepYxswoDf8YZ87tCLaSxPCpkt3ucMZ7']
+  config.api_key = ENV['EYESON_API_KEY']
+  #config.api_key = '9J3vXyDSUBWAwBD2bnMGnTQ1grEcWBF4aw4iLFR1CS'
 end
 
 class EyesonQuickstartApp < Sinatra::Base
